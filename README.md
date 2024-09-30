@@ -11,7 +11,9 @@ Este proyecto implementa una versión multihilos del programa `Proyecto.c`, que 
 Para compilar el programa, abre una terminal y navega al directorio donde se encuentra `Proyecto.c`. Luego, ejecuta el siguiente comando:
 ```bash
 gcc -o Proyecto Proyecto.c -lpthread
+```
 
 ## Ejecución
 Para ejecutar el programa, utiliza el siguiente comando: 
+```bash
 ./Proyecto <directorio_origen> <directorio_destino>
