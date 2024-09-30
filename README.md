@@ -4,7 +4,7 @@
 Este proyecto implementa una versión multihilos del programa `Proyecto.c`, que permite copiar el contenido de un directorio completo de manera eficiente utilizando múltiples hilos. El programa maneja recursivamente tanto archivos como subdirectorios, con el objetivo de determinar la cantidad de hilos ideal para maximizar el rendimiento en términos de tiempo de ejecución.
 
 ## Requisitos
-- Sistema operativo compatible con POSIX (Linux, macOS)
+- Sistema operativo Unix (Linux, macOS)
 - Compilador de C (gcc)
 
 ## Compilación
@@ -17,3 +17,7 @@ gcc -o Proyecto Proyecto.c -lpthread
 Para ejecutar el programa, utiliza el siguiente comando: 
 ```bash
 ./Proyecto <directorio_origen> <directorio_destino>
+```
+
+Para cambiar el número de hilos se hace dentro del codigo en main() en la variable num_threads.
+
